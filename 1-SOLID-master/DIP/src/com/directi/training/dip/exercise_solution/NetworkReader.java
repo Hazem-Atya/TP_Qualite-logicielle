@@ -1,13 +1,11 @@
-package com.directi.training.dip.solution;
+package com.directi.training.dip.exercise_solution;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
-import java.util.Base64;
 
-public class DatabaseReader implements Reader{
-
+public class NetworkReader implements Reader {
     @Override
     public String read() throws IOException {
         URL url;

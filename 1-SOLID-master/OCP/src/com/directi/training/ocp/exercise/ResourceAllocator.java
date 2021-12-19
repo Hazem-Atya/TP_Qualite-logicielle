@@ -42,11 +42,6 @@ public class ResourceAllocator
     private void markSpaceSlotFree(int resourceId)
     {
     }
-
-    private void markTimeSlotFree(int resourceId)
-    {
-    }
-
     private void markSpaceSlotBusy(int resourceId)
     {
     }
@@ -55,6 +50,11 @@ public class ResourceAllocator
     {
         return 0;
     }
+
+    private void markTimeSlotFree(int resourceId)
+    {
+    }
+
 
     private void markTimeSlotBusy(int resourceId)
     {
